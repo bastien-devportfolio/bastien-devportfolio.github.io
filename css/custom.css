@@ -1,1 +1,96 @@
 /* your styles go here */
+
+.tech-skill {
+    border-radius: 30rem;
+    background: #f8f9fa;
+    height: 40px;
+    padding: 0 16px 0 5px;
+    display: block;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.9rem;
+    max-width: 300px;
+    width: fit-content;
+    margin-left: 10px;    
+    margin-bottom: 5px;
+}
+
+.tech-skill i {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+}
+
+.tech-skill {
+    color: #fff;
+}
+
+.tech-skill.blue {
+    background: #3b5999;
+    color: #fff;
+}
+
+.tech-skill.blue i {
+    color: #3b5999;
+}
+
+.tech-skill.sky {
+    background: #55acee;
+    color: #fff;
+}
+
+.tech-skill.sky i {
+    color: #55acee;
+}
+
+.tech-skill.pink {
+    background: #e4405f;
+    color: #fff;
+}
+
+.tech-skill.pink i {
+    color: #e4405f;
+}
+
+.list-custom-inline{
+    display: contents !important;
+}
+
+.faff{
+    font-family: 'FontAwesome' !important;
+}
+
+.pacifico{
+    font-family: Pacifico;
+}
+
+.stronger{
+    font-weight: 900 !important;
+}
+
+.fw-custom{
+    font-weight: 200 !important;
+    font-size: calc(2rem + 1.5vw) !important;
+}
+
+.download-resume{
+    font-size: 20px;
+    font-family: 'pacifico';
+    color: rgba(255,255,255,0.9);
+}
+
+/*
+@font-face {
+    font-family: Pacifico;
+    src: url(/fonts/Pacifico/Pacifico-Regular.ttf);
+}
+
+
+*/

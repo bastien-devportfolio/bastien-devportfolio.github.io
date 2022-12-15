@@ -55,7 +55,7 @@
   --bs-black-rgb: 0, 0, 0;
   --bs-body-color-rgb: 18, 14, 24;
   --bs-body-bg-rgb: 255, 255, 255;
-  --bs-font-sans-serif: "Source Sans Pro", sans-serif;
+  --bs-font-sans-serif: quicksand, "Source Sans Pro", sans-serif;
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --bs-body-font-family: var(--bs-font-sans-serif);
@@ -106,7 +106,7 @@ hr:not([size]) {
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   margin-top: 0;
   margin-bottom: 0.5rem;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 1.2;
 }
 
@@ -7931,7 +7931,7 @@ fieldset:disabled .btn {
   font-weight: lighter !important;
 }
 
-.fw-normal {
+.el {
   font-weight: 400 !important;
 }
 
