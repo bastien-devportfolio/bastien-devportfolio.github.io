@@ -111,6 +111,10 @@
     color:#ef5285;
 }
 
+.skills-description{
+    word-break: break-word;
+}
+
 /*
 @font-face {
     font-family: Pacifico;
