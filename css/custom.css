@@ -86,6 +86,31 @@
     color: rgba(255,255,255,0.9);
 }
 
+.align-title-link{
+    overflow: hidden;
+}
+
+.align-title-link h1{
+    float: left;
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 3px;
+}
+
+.align-title-link .link-out{
+    margin-top: 17px;
+    margin-left: 10px;
+    color: var(--bs-body-color);
+}
+
+.align-title-link .link-out:hover{
+    color:#ef5285;
+}
+
+.align-title-link:hover .link-out{
+    color:#ef5285;
+}
+
 /*
 @font-face {
     font-family: Pacifico;
