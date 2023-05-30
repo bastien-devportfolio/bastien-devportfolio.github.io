@@ -121,5 +121,61 @@
     src: url(/fonts/Pacifico/Pacifico-Regular.ttf);
 }
 
-
 */
+.animated-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .animated-container .img-fluid {
+    transition: opacity 0.3s ease-in-out;
+  }
+
+
+  
+  .animated-container .onhover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    pointer-events: none;
+    z-index: 1;
+  }
+
+ 
+  .animated-container:hover .onhover {
+    opacity: 1;
+    pointer-events: auto;
+    z-index: 2;
+  }
+  
+  .animated-container:hover .main {
+    opacity: 0;
+    z-index: 1;
+  }
+  
+  .animated-container .onhover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    pointer-events: none;
+    z-index: 1;
+    width: auto;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .outline img{
+    outline: 3px solid #393536;
+    border-radius: 10px;
+  }
+
+  .text-muted .highlight {
+    color: #f01c51;
+    font-weight: 800;
+    letter-spacing: 4px;
+    word-spacing: 12px;
+    margin-left: 12px;
+    margin-right: 12px;
+  }
